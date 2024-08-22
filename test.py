@@ -3,10 +3,10 @@ import mysql.connector
 
 try:
     connection = mysql.connector.connect(
-        user='wiomsudo',
-        password='wiomsudo',
-        host='34.131.53.25',
-        database='wiomlabs',
+        user='your user name',
+        password='your password',
+        host='your host',
+        database='your database name',
     )
     if connection.is_connected():
         print("Connection successful!")
